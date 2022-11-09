@@ -1,0 +1,139 @@
+﻿CLASS 5          8/11/22
+
+
+Still under supervised learning
+
+
+
+
+-disjoint graphs
+
+
+Regression- formula that you apply to a dataset
+Add a line to regression —-> classification
+line/plane of classification—-> if there is any single line or plane that can classify a curve
+
+
+Ex. low wbcs and high wbcs  are both conditions of malaria, where as the centre means no malaria—-----> even if straight line there is no single line/point that splits curve/line properly into 2 - malaria and no malaria
+It is disjoint line
+Hence no current known regressions can be used- linear reg
+For current data you could use if else - but that gives a constant condition→ machine cannot learn—-> it doesnt not help machine to learn to adjust to new parameters
+So do not use if-else for plane
+
+
+
+
+In a case where you have to check multiple dimensions(columns) - you may have to increase the dimension you check in by 1
+Ex  in a line 
+          XXXXXXXXX OOOOOOOOO XXXXXXX
+Shift this 2d graph to 3d and then you can find a plane that can cut it into 2
+O below plane, X’s above
+
+
+SVM
+Decision tree
+Random forest
+
+
+SUPPORT VECTOR MACHINES
+Take into account a buffer
+
+
+Support vectors- boundary values—--> gutter lies in between those
+Any point that lies within the gutter needs more analysis
+
+
+Svm is going to find an equation to find distance between 2 roads of gutter (support vectors)
+And where the gutter itself resides
+
+
+Margin
+Points that lie on margin→ support vectors
+
+
+Convex optimization problem
+Max w,b  ||w||^-2
+w^Tx+b>= 1     x e C1
+w^Tx+b<= -1     x e C2
+
+
+
+
+-downfall: 
+1. outliers- very difficult- support vectors may get placed in wrong positions —--------- dangerous
+2. Can only be used for smaller sized data sets as it is very math intensive – time taking
+
+
+Strassen's matrix multiplication method
+Tensor
+
+
+Is svm always lines???
+It is always 2 boundaries, but not always 2 lines not even a line sometimes
+
+
+Gutter being donut– rbf kernel
+
+
+Role of kernels- try to find the plane in a higher dimension, and then show it back in the og plane
+
+
+Basic kernels:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(Training a model—> providing a dataset with a formula)
+Bigger the sample size/ more the diversity —-- better it behaves/learns

@@ -1,0 +1,94 @@
+﻿CLASS 3          4/11/22
+
+
+
+
+
+
+Supervised learning  - based on already known info - good accuracy only when you feed it a good amount of data- 
+Unsupervised
+
+
+
+
+Regression
+Polynomial regression
+
+
+#read documentaion of sklearn - HW
+
+
+#imputing - filling as empty  cells
+#done in 2 way
+#strings- filling with mode
+#numeric - filling with mean
+#or you can drop a row if there is a missing space- only do if there are a large number of samples
+
+
+OUTLIERS
+
+
+
+
+ONE HOT ENCODING-AS YOU CAN USE BINARY NUMBERS- TEXTUAL DATA TO NUMERIC
+
+
+N categories in categorical data- nbits to rep them
+
+
+
+
+In supervised learning no need to look for test and training set, simply split the dataset
+
+
+If in a dataset of 30 values-
+We took 20 in training set
+10 in test set
+
+
+About 70:30- 80:20 ratio of training to test data amount
+
+
+Trained 20 
+To check if training was useful or not-
+Take the algorithm and run it on the test set without the answer/ output and check if the correct output or known output is predicted
+Ex. in a dataset of age and shows watched, run test set with ages and see what show the algo predicts as compared to the actual show watched
+
+
+Ml training model above 65-70 should be tried to achieved
+
+
+
+
+
+
+Feature Scaling - plotting into a graph onto a decent scale
+Ex. find weight - no of cells
+
+
+Weight -x
+	No of cells-y
+	50
+	212321983091840921840921849284
+	45
+	234432743827832750235709990344
+	100
+	544469580949685965968956598989
+	95
+	521838273198247294872189742142
+	73
+	423094782749758293758375298755
+	
+
+Here we have to take scale like 1 lakh=1cm exm.
+
+
+NORMAL DISTRIBUTION OF RANDOM VARIABLES- mathematical way that python determines the necessary scale
+
+
+
+
+
+
+HW- regression model
+Kaggle dataset
