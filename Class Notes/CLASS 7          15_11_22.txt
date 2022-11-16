@@ -1,0 +1,44 @@
+﻿CLASS 7          15/11/22
+
+
+Unsupervised learning 
+-clustering learning  - kmeans
+-associate  learning
+-Natural language processing
+
+
+No previous output/ no understanding
+
+
+We look for patterns in the data
+
+
+Y does not give any meaningful significant answer, 
+Rather it gives a number.
+After plotting the points we decide the categories based on clusters
+
+
+You categorize any new point based on characteristics
+
+
+
+
+KMEANS CLUSTERING:
+K-number of clusters in the graph
+Have to find the value of k such that points are divided into categories that properly define their characteristics
+
+
+Find k value by plotting accuracy curve-
+At point of inflection that value of k is used.
+Elbow method
+
+
+Accuracy is measured by forming clusters and the sum of the distance between a point and every other points must be minimum
+A cluster selects a leader by calculating the centroid of its points
+
+
+Minimize intra cluster distance
+Maximize inter cluster distance
+
+
+(heirachial clustering)

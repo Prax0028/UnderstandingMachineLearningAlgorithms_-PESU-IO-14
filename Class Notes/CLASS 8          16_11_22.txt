@@ -1,0 +1,114 @@
+﻿CLASS 8          16/11/22
+
+
+Associative rule learning—-----> real time
+Natural Language processing
+
+
+ARL: 
+Itenset
+It finds similarity when a new item is brought in
+
+
+Support and confidence:
+
+
+Ex. data of items bought
+{bread,jam}
+{bread,butter}
+{bread,jam,shampoo}
+{wine,cigars,diaper}
+{bread,jam,wine}
+What is the probability that someone who buys bread also buys butter—> ¼ —>>conditional probability—->> confidence
+
+
+
+
+Ex2. P that someone buys wine when they have already bought vodka—----->  P(w,v)/P(v)
+
+
+Ex3. P that someone buys caramel when they have already bought ice cream and chocolate—--->  P(car,ic,choc)/P(ic,choc)
+
+
+
+
+Support: 
+Ex. 
+{beer,apple,diaper}
+{t-shirt,brownies,diaper}
+{beer,icream,diaper}
+{beer,pizza,broccoli}
+{beer,cigars,diaper}
+{iron,wine,diaper}
+{beer,paper,diaper}
+
+
+Unique
+Beer, diaper, icream, pizza, broccoli, cigars, wine, iron, paper, apple, brownies, t-shirt
+you are buying beer, what is the item that is bought with beer the most
+
+
+Calculate support:
+(beer)/total transactions — 5/7
+(diaper)/total transaction — 6/7
+(icecream)/total trans   — 1/7
+And so on 
+They see frequently occurring items—> beer, diapers
+P(beers,diapers)/total trans  → 4/7  >50%
+Support more than 50%   → they are most likely to be bought together
+
+
+Confidence for beer and diapers →
+P(b,d)/p(b)             and           p(d,b)/p(d)
+
+
+Check both the confidences. If either is>50% then that means we can be confident that keeping beers and diapers together is good idea
+
+
+
+
+  
+
+
+
+
+
+
+
+NATURAL LANGUAGE PROCESSING:
+Can be unsupervised or supervised
+Speech content emails  
+Chatbots
+
+
+Emotion detection
+
+
+Siri, google assistant, alexa, cortana
+
+
+1.Tokenize strings into smaller pieces 
+2. removal of words that arent necessary to provide emotion
+3. Stemming→reducing the words present to root form   (present,raw)
+4. Part-of-speech tagging
+
+
+Ex. i loved the soup and will definitely come back
+Loved soup come back
+Love soup come back
+Love  comeback → verbs
++ve and +ve
+
+
+
+
+
+
+
+
+
+
+
+
+(Documentation→ list of stop words )
+(naive bayes model)
